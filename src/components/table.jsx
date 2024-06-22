@@ -2,18 +2,15 @@ import {
   Table,
   Thead,
   Tbody,
-  Tfoot,
   Tr,
   Th,
   Td,
-  TableCaption,
   TableContainer,
 } from "@chakra-ui/react";
 
 export default function TableComp({ data }) {
-  console.log("data aaya", data);
   return (
-    <div className="mt-12">
+    <div className="mt-12 mb-12">
       <TableContainer>
         <Table variant="striped" colorScheme="gray">
           <Thead>
